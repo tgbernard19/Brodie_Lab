@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Us — Brodie Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html" class="nav-logo">Brodie Lab</a>
+    <ul class="nav-links">
+      <li><a href="research.html">Research</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="highlights.html">Highlights</a></li>
+      <li><a href="join-us.html" class="active">Join Us</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <div class="page-hero">
+    <div class="container">
+      <p class="page-label">Teaching &amp; Research Opportunities</p>
+      <h1>Join Us</h1>
+      <p class="page-lead">We welcome motivated students, postdoctoral researchers, and collaborators at all career stages. See below for current opportunities and how to get in touch.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- Teaching -->
+      <div class="sub-header">
+        <p class="section-label">Teaching</p>
+      </div>
+
+      <div class="course-block" style="margin-bottom: 2.5rem;">
+        <p class="course-number">ESPM 131 &middot; UC Berkeley &middot; Spring Semesters</p>
+        <h3>Soil Microbiology and Biogeochemistry</h3>
+        <p>An introduction to the organisms that live in the soil and their activities in the soil ecosystem. Lectures cover the physical and chemical properties of soils and the soil as a habitat for microorganisms, the diversity and ecology of soil microorganisms, and their activity in the context of biogeochemical cycling, plant-microbe interactions, global environmental change, and bioremediation.</p>
+        <p>Goals: To gain fundamental knowledge of the occurrence and activities of soil microorganisms and their influence on soil productivity and environmental quality, as well as potential applications of soil microbiology.</p>
+      </div>
+
+      <!-- Graduate Students -->
+      <div class="sub-header">
+        <p class="section-label">Graduate Students</p>
+      </div>
+
+      <div class="opportunity-block" style="margin-bottom: 1.25rem;">
+        <h3>PhD Programs</h3>
+        <p>Graduate students traditionally apply via the ESPM, MCB, IB, and ES (or other) UC Berkeley PhD programs. Dr. Brodie can only act as a co-advisor with a primary senate faculty member. Prospective students are encouraged to reach out before applying.</p>
+        <p>Non-Berkeley graduate students with aligned research goals have also visited the lab in the past.</p>
+        <p>Prospective students are strongly encouraged to apply for external fellowship funding:</p>
+        <div class="opp-links">
+          <a href="https://education.lbl.gov/internships/scgsr/" target="_blank" rel="noopener" class="btn-link">DOE SCGSR &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Undergraduates & Post-Bacs -->
+      <div class="sub-header">
+        <p class="section-label">Undergraduates &amp; Post-Baccalaureate Researchers</p>
+      </div>
+
+      <div class="opportunity-block" style="margin-bottom: 1.25rem;">
+        <h3>Undergraduate Research Opportunities</h3>
+        <p>Reach out to Dr. Brodie with your interests and apply through one of the following programs:</p>
+        <div class="opp-links">
+          <a href="https://nature.berkeley.edu/undergraduate-research/spur" target="_blank" rel="noopener" class="btn-link">SPUR (Berkeley) &rarr;</a>
+          <a href="https://education.lbl.gov/internships/suli/" target="_blank" rel="noopener" class="btn-link">DOE SULI &rarr;</a>
+          <a href="https://research.berkeley.edu/urap/" target="_blank" rel="noopener" class="btn-link">URAP (Berkeley) &rarr;</a>
+        </div>
+      </div>
+
+      <div class="opportunity-block" style="margin-bottom: 2.5rem;">
+        <h3>Post-Baccalaureate Research Assistants</h3>
+        <p>Reach out to Dr. Brodie directly with your CV.</p>
+      </div>
+
+      <!-- Contact CTA -->
+      <div class="cta-strip">
+        <p><strong>Get in touch.</strong> We welcome inquiries from prospective lab members at all levels.</p>
+        <a href="mailto:elbrodie@lbl.gov" class="btn-link">elbrodie@lbl.gov &rarr;</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo">Brodie Lab</span>
+      <p>Lawrence Berkeley National Laboratory<br>Climate and Ecosystem Sciences Division</p>
+    </div>
+    <div class="footer-contact">
+      <p>
+        elbrodie[at]lbl.gov<br>
+        Building 92 (BioEPIC), MSR0129<br>
+        1 Cyclotron Rd., Berkeley, CA 94720<br>
+        <a href="http://lbl.gov" target="_blank" rel="noopener">lbl.gov</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function() {
+    document.querySelector('.nav-links').classList.toggle('open');
+  });
+</script>
+</body>
+</html>
